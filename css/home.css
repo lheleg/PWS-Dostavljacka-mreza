@@ -10,10 +10,17 @@ body {
 }
 /* CSS for header */
 .header {
+  position: fixed;
+  width: 100%;
+  top:0;
+  height: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #5edaf0;
+  z-index: 1;
+  border: 7px #D51E25;
+  border-style:ridge;
 }
 
 .header .logo {
@@ -51,10 +58,13 @@ body {
 
 .nav-items a {
   text-decoration: none;
-  color: #14b637;
+  color: #D51E25;
   padding: 35px 20px;
 }
 /* CSS for main section */
+main{
+  margin-top: 150px;
+}
 .intro {
   display: flex;
   flex-direction: column;
@@ -102,6 +112,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #2F6D78;
   padding: 40px 80px;
 }
 
@@ -124,14 +135,14 @@ body {
 
 .achievements .work .work-heading {
   font-size: 20px;
-  color: #333333;
+  color: #FFFB00;
   text-transform: uppercase;
   margin: 10px 0;
 }
 
 .achievements .work .work-text {
   font-size: 15px;
-  color: #585858;
+  color: #F0A330;
   margin: 10px 0;
 }
 
@@ -151,7 +162,7 @@ body {
 .slike h2{
     border-top: 2px solid #eeeeee;
     font-size: 30px;
-    color: #333333;
+    color: #D51E25;
     text-transform: uppercase;
     padding-top: 5%;
 }
