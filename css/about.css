@@ -3,51 +3,12 @@
 html{
     background-color: #5edaf0;
 }
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #5edaf0;
-  }
-  
-  .header .logo {
-    font-size: 25px;
-    font-style: italic;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: #000;
-    text-decoration: none;
-    margin-left: 30px;
-  }
-  
-  .header .lan img{
-      width: 30px;
-      margin-bottom: 25%;
-  
-      margin-top: 5%;
-      margin-left: 16%;
-  }
-  #bos{
-      height: 20px;
-  }
-  
-  .nav-items {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      background-color: #5edaf0;
-      margin-bottom: 5%;
-      margin-right: 5%;
-      font-weight: bolder;
-      font-family:Arial, Helvetica, sans-serif;
-      font-size: larger;
-      
-  }
-  
-  .nav-items a {
-    text-decoration: none;
-    color: #14b637;
-    padding: 35px 20px;
-  }
+body{
+  margin: 0;
+}
+main{
+  margin-left: 8px;
+}
 .about-me {
     justify-content: center;
     align-items: center;

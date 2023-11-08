@@ -8,63 +8,7 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
-/* CSS for header */
-.header {
-  position: fixed;
-  width: 100%;
-  top:0;
-  height: 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #5edaf0;
-  z-index: 1;
-  border: 7px #D51E25;
-  border-style:ridge;
-}
-
-.header .logo {
-  font-size: 25px;
-  font-style: italic;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #000;
-  text-decoration: none;
-  margin-left: 30px;
-}
-
-.header .lan img{
-    width: 30px;
-    margin-bottom: 25%;
-
-    margin-top: 5%;
-    margin-left: 16%;
-}
-#bos{
-    height: 20px;
-}
-
-.nav-items {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #5edaf0;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    font-weight: bolder;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: larger;
-    
-}
-
-.nav-items a {
-  text-decoration: none;
-  color: #D51E25;
-  padding: 35px 20px;
-}
 /* CSS for main section */
-main{
-  margin-top: 150px;
-}
 .intro {
   display: flex;
   flex-direction: column;
