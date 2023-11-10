@@ -3,17 +3,18 @@
     position: fixed;
     width:100%;
     top:0;
-    height: 150px;
+    height: 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5edaf0;
+   background-color: #bef0f9;
     z-index: 1;
-    border: 7px #D51E25;
-    border-style:ridge;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     box-sizing:border-box;
   }
-  
+
+
+
   .header .logo {
     font-size: 25px;
     font-style: italic;
@@ -25,10 +26,10 @@
   
   .header .lan img{
       width: 30px;
-      margin-bottom: 25%;
-  
+      margin-bottom: 55%;
+      padding-right: 15px;
       margin-top: 5%;
-      margin-left: 16%;
+
   }
   #bos{
       height: 20px;
@@ -38,7 +39,6 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      background-color: #5edaf0;
       margin-right: 5%;
       font-weight: bolder;
       font-family:Arial, Helvetica, sans-serif;
@@ -48,10 +48,10 @@
   
   .nav-items a {
     text-decoration: none;
-    color: #D51E25;
+    color: #d8031c;
     padding-left: 20%;
     padding-right: 20%;
   }
   main{
-    margin-top: 150px;
+    margin-top: 120px;
   }
